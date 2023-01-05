@@ -24,4 +24,8 @@ Click the album title to view review + tracklist. Click the 'edit' buttton to ed
 
 
 ## Screenshots
-<img src="https://ibb.co/LZmKRJ1"># Beyhive
+<a href="https://ibb.co/LZmKRJ1"><img src="https://i.ibb.co/G5ymptR/Screen-Shot-2023-01-05-at-1-36-28-AM.png" alt="Screen-Shot-2023-01-05-at-1-36-28-AM" border="0" /></a>
+
+<a href="https://ibb.co/TqXX9JJ"><img src="https://i.ibb.co/FqvvRcc/Screen-Shot-2023-01-05-at-1-37-48-AM.png" alt="Screen-Shot-2023-01-05-at-1-37-48-AM" border="0"></a>
+
+<a href="https://ibb.co/3BNh7xH"><img src="https://i.ibb.co/D5CKtBn/Screen-Shot-2023-01-05-at-1-37-18-AM.png" alt="Screen-Shot-2023-01-05-at-1-37-18-AM" border="0"></a>
