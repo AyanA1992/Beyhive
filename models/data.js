@@ -3,7 +3,7 @@ const data = [
      name:'Dangerously in Love',
      year: '2003',
      img:"https://i.ibb.co/Y2NZkKy/Dangerously-In-Love-Album-2003-1.png",
-     Review:"The album has some extremely charming songs that became household hits like 'Crazy In Love' and 'Baby Boy' with Beyoncé’s beautiful voice and production that didn’t age too bad. Still play this album 20 YEARS later",
+     Review:"The album has some extremely charming songs that became household hits like 'Crazy In Love' and 'Baby Boy'.With Beyoncé’s beautiful voice and production that didn’t age too bad. Still play this album 20 YEARS later",
      songlist:[ "Crazy In Love", 'Naughty Girl', 'Thats How You Like It', 'Baby Boy', 'Hip Hop Star', 'Be With You', 'Me Myself and I', 'Yes', 'Signs', 'Speechless', 'The Closer I Get To You', 'Dangerously In Love 2', 'Beyonce Interlude', 'Gift From Virgo', 'Daddy',  ]
      
     
@@ -42,6 +42,8 @@ const data = [
         name:"Beyonce",
         year:2013,
         img:"https://i.ibb.co/b51scNL/1200px-Beyonce-Beyonce-svg.png" ,
+        Review: '',
+        songlist: ['Pretty Hurts', 'Haunted', 'Drunk In Love', 'Blow', 'No Angel', 'Partition', 'Jealous', 'Rocket', 'Mine', 'XO', 'Flawless', 'Superpower', 'Heaven', 'Blue']
        
 
     },
@@ -49,13 +51,16 @@ const data = [
         name:"Lemonade",
         year:2016,
         img:"https://i.ibb.co/sQ2Pdnj/Beyonce-Lemonade-Official-Album-Cover.png" ,
-        
+        Review: '',
+        songlist:['Pray You Catch Me', 'Hold Up', 'Dont Hurt Yourself', 'Sorry', '6 Inch', 'Daddy Lessons', 'Love Drought', 'Sandcastles', 'Forward', 'Freedom', 'All Night', 'Formation']
 
     },
     {
         name:"The Lion King: The Gift",
         year:2019,
         img:"https://i.ibb.co/B4jzMHP/thegift.jpg" ,
+        Review:'',
+        songlist:['Bigger', 'Find Your Way Back', 'Dont Jealous Me', 'JA ARA E', 'Nile', 'Mood 4Eva', 'Water', 'Brown Skin Girl', 'Keys to The Kingdom', 'Already', 'Otherside', 'My Power', 'Scar', 'Spirit']
     
 
     },
@@ -63,7 +68,8 @@ const data = [
         name:"Renaissance",
         year:2022,
         img:"https://i.ibb.co/K6wsRgJ/beyonce-renaissance-sq-44bf2e820ab82236e9b3615b90a551eb03bed143-s1100-c50.jpg" ,
-        
+        Review: '',
+        songlist: ['Im That Girl', 'Cozy', 'Alien Superstar', 'Cuff It', 'Energy', 'Break My Soul', 'Church Girl', 'Plastic Off The Sofa', 'Virgo Groove', 'Move', 'Heated', 'Thique', 'All Up In Your Mind', 'America Has A Problem', 'Pure/Honey', 'Summer Renaissance']
     },
  ]
 
