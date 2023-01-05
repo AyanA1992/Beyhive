@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+   <header>
+    <title>Document</title>
+
+</head>
+<body>
+    <h1>Beyhive</h1>
+    <ul class="navmenu">
+
+    
+        
+        <li><a href="https://music.apple.com/us/artist/beyonc%C3%A9/1419227">stream</a></li>
+        <style>
+        navmenu {
+            justify-self: center;
+          }
+          h2 {
+            justify-self: center;
+          }
+          </style>
+     
+        
+    </ul>
+    <nav>
+       <a href="/albums/new">Share your thoughts</a>
+   </nav>
+     <ul class="data">
+       <% for(let i = 0; i < albums.length; i++) { %>
+         <li >
+             <div class="name">
+               <a href="/albums/<%=albums[i]._id %>"><%= albums[i].name %> <br><br>
+               </div>
+                 <div id="img">
+                   <img src="<%= albums[i].img%>"></a>
+                 </div> 
+                  <!-- Delete-->
+             <form action="/albums/<%= albums[i]._id %>?_method=DELETE" method="POST">
+                 <div class="del">
+                     <input type="submit" value="DELETE" />
+                     <a href="/albums/<%= albums[i]._id%>/edit">Edit</a>
+                     
+                
+                 </div>
+                </form>  
+                </li>
+               <%}%>
+                </ul>
+   
+
+
+
+
+</body>
+</html>

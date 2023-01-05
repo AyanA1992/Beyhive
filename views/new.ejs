@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="/style.css">
+    <title>Add Review</title>
+ 
+  
+  </head>
+  <body>
+    <h1>Add a Review</h1>
+    <!--  NOTE: action will be the route, method will be the HTTP verb-->
+    <form action="/albums" method="POST">
+      Album: <input type="text" name="name" /><br />
+      Favorite Song: <input type="text" name="song" /><br />
+      Review: 
+      <textarea id="Review" name="Review" rows="4" cols="50"></textarea>
+      
+      <input type="submit" value="Submit Review" />
+    </form>
+  </body>
+</html>

@@ -1,0 +1,78 @@
+
+  h2 {
+    justify-self: center;
+  }
+  
+  body { 
+    margin: 0;
+   display: grid;
+grid-template-columns: 1fr; 
+  grid-template-rows: 40px 1fr 60px; 
+grid-gap: 100px;
+height: 10vh;
+font-family: Helvetica;
+  background-color:#d97e15;
+  
+  
+} 
+
+body h1 { 
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;
+  font-size: 20px;
+margin: 30px;
+
+}
+
+main{
+font-size: 20px;
+font:bold;
+text-align: center;
+background-color:rgb(242, 161, 12)
+
+} 
+
+flex ctr{
+text-align: center
+}
+footer{
+font-size: 15px ;
+text-align: center;
+}
+
+img{
+height:200px;
+width:200px;
+border-radius: 50%;
+ align-items: center;
+
+}
+
+.data {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding:0 ;
+  margin:0 0 2em 0;
+ 
+}
+li {
+  display: block;
+  flex-direction: row;
+  margin: 5px;
+  padding: 5px 10px;
+  border: 5px;
+  border-style: solid;
+  border-color: rgba(223, 165, 19, 0.695);
+  max-width: 50%;
+  max-height: 70%;
+
+}
+songlist {
+  flex-direction: row;
+}
+
+.navmenu {
+  justify-self: center;
+}
