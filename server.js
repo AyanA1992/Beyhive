@@ -46,7 +46,7 @@ app.get('/albums/seed', (req,res) => {
 //induces
 
 //index
-app.get("/", (req,res) =>{
+app.get("/albums/", (req,res) =>{
     Albums.find({}, (err, albums) =>{
         res.render("index", {albums})
     })
