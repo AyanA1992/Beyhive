@@ -52,6 +52,10 @@ app.get("/albums/", (req,res) =>{
     })
 })
 
+app.get("/", (req,res) =>{
+    res.redirect('/albums')
+    
+})
 //new
 app.get("/albums/new", (req,res) => {
     res.render("new.ejs")
