@@ -9,18 +9,20 @@ body {
     justify-items: center;
     text-align: center;
      background-image:url("https://i.ibb.co/L1mq4zh/bee.png"); 
+     /* background-image: opacity: 0.5; */
+     
    /* background-size: cover;  */
      color:rgb(68, 57, 43); 
     padding:0;
 }
- "https://i.ibb.co/KGj1R5V/bee2.png"
+ /* "https://i.ibb.co/KGj1R5V/bee2.png" */
 h1 {
     text-align: center;
    
 
 }
 flex ctr{
-    text-align: center
+    text-align: center;
     }
 
     img {
@@ -30,6 +32,10 @@ flex ctr{
         align-items: center;
     }
 
+    .name{
+        font-size: 50px;
+        border:
+    }
     .data {
         list-style: none;
         display: flex;
@@ -41,6 +47,8 @@ flex ctr{
         margin:0 0 2em 0;
         gap: 30px;
        
+
+
       }
  .ol-style{
     list-style-type: none;
